@@ -4,14 +4,14 @@ public class Product {
     // 속성
     private String productName;
     private int productPrice;
-    private String productInformation;
+    private String productDescription;
     private int productStock;
 
     // 생성자
-    public Product(String name, int price, String information, int stock) {
+    public Product(String name, int price, String description, int stock) {
         this.productName = name;
         this.productPrice = price;
-        this.productInformation = information;
+        this.productDescription = description;
         this.productStock = stock;
     }
 
@@ -24,8 +24,8 @@ public class Product {
         return productPrice;
     }
 
-    public String getProductInformation() {
-        return productInformation;
+    public String getProductDescription() {
+        return productDescription;
     }
 
     public int getProductStock() {
