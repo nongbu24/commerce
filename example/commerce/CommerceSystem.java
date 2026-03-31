@@ -60,6 +60,7 @@ public class CommerceSystem {
                     try {
                         Category category = categories.get(categoryIndex);
 
+                        System.out.println("[ " + category.getName() + " 카테고리 ]");
                         // products 출력
                         for (int i = 0; i < category.getProducts().size(); i++) {
                             Product product = category.getProducts().get(i);
